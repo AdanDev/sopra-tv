@@ -1,0 +1,16 @@
+/* bootstrap */
+@import '~bootstrap/scss/bootstrap';
+
+/* imports */
+@import './components/header.scss';
+@import './components/footer.scss';
+
+/* default properties */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Bebas Neue', cursive;
+  margin-top: 46px;
+}
